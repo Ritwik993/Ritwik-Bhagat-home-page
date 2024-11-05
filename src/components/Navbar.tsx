@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar=()=>{
     return(
-        <div className="flex justify-between items-center ">
+        <div className="flex justify-between items-center px-[100px] ">
             <div className="text-[#0D2052] text-[14px] flex items-center justify-center text-center">
                 <Image src="/Vector 1648.png" width={33} height={24} alt=""/>
                 <h1 className="text-[24px] font-semibold text-center">BrandNav</h1>

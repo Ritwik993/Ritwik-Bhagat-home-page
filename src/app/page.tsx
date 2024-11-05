@@ -3,6 +3,7 @@ import Card1 from "@/components/Card1";
 import Reason from "@/components/Reason";
 import Reason2 from "@/components/Reason2";
 import Reason3 from "@/components/Reason3";
+import ReviewCard from "@/components/ReviewCard";
 import Image from "next/image";
 
 const Home=()=>{
@@ -80,33 +81,185 @@ const Home=()=>{
             <p className="text-[20px] font-semibold text-[#2F327D]">Financials</p>
           </div>
           <div className="text-center flex flex-col items-center justify-center">
-            <Image src="/Group 1000001990.svg" width={70} height={70} alt=""/>
+            <Image src="/Group 1000001992.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Company Name <br/>& Website</p>
           </div>
           <div className="text-center flex flex-col items-center justify-center">
-            <Image src="/Group 1000001990.svg" width={70} height={70} alt=""/>
+            <Image src="/Group 1000001992 (1).svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Company <br/>location </p>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <Image src="/Group 1000001990.svg" width={70} height={70} alt=""/>
+            <Image src="/3.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Country code </p>
           </div>
         </div>
 
         <div className="flex justify-between w-full items-center px-[350px] mt-[20px]">
           <div className="flex flex-col items-center justify-center">
-            <Image src="/Group 1000001990.svg" width={70} height={70} alt=""/>
-            <p className="text-[20px] font-semibold text-[#2F327D]">Country code </p>
+            <Image src="/4.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">Employee count</p>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <Image src="/Group 1000001990.svg" width={70} height={70} alt=""/>
-            <p className="text-[20px] font-semibold text-[#2F327D]">Country code </p>
+            <Image src="/5.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">Industry </p>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <Image src="/Group 1000001990.svg" width={70} height={70} alt=""/>
-            <p className="text-[20px] font-semibold text-[#2F327D]">Country code </p>
+            <Image src="/6.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">and 20+ more </p>
           </div>
           </div>
+          
+          <p className="text-[#007DF2] font-semibold text-[24px] mt-[40px] mb-[20px]">Enricher attributes</p>
+          <div className="flex justify-between items-center px-[200px] w-full ">
+          <div className="flex flex-col items-center justify-center">
+            <Image src="/7.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">Phone</p>
+          </div>
+          <div className="text-center flex flex-col items-center justify-center">
+            <Image src="/8.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">Email</p>
+          </div>
+          <div className="text-center flex flex-col items-center justify-center">
+            <Image src="/9.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">Job title</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <Image src="/10.svg" width={70} height={70} alt=""/>
+            <p className="text-[20px] font-semibold text-[#2F327D]">Linkedin</p>
+          </div>
+        </div>
+
+
+      <div className=" text-center">
+      <p className="text-[#2F327D] font-bold text-[36px] mt-[250px]">Fix data accuracy problems<br/> with BrandNav</p>
+      <div className="flex gap-5 mt-8">
+      <div>
+        <Image src="/11.png" width={439} height={426} alt="" className="w-[439px] h-[330px]"/>
+        <p className="font-semibold text-[#F04148] text-[20px]">Before</p>
+      </div>
+      <div>
+        <Image src="/12.png" width={439} height={426} alt="" className="w-[439px] h-[330px]"/>
+        <p className="font-semibold text-[#F04148] text-[20px]">After</p>
+      </div>
+      </div>
+      </div>
+
+      <div className="flex flex-col text-center items-center justify-center mt-[200px] mb-[100px]">
+      <p className="text-[#2F327D] font-bold text-[36px]">Who is using BrandNav?</p>
+      <p className="text-[16px] text-[#595B97] mt-[15px] mb-[20px]">BrandNav has become irreplaceable tool for businesses</p>
+      
+      <div className="grid grid-cols-3 gap-x-8 gap-y-[100px] px-[100px]">
+      <div className="text-center flex flex-col items-center justify-center">
+        <Image src="/15.png" width={71} height={66} alt=""/>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Sales & Marketing Teams</p>
+        <p className="text-[16px] text-[#595B97]">Sales and marketing teams are using BrandNav to efficiently locate and verify prospect contact information and identify key decision-makers.</p>
+      </div>
+      <div className="text-center flex flex-col items-center justify-center">
+        <Image src="/161.png" width={71} height={66} alt=""/>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Software & IT Companies</p>
+        <p className="text-[16px] text-[#595B97]">IT companies are using BrandNav to build lists for outreach, identify target organizations, and verify email addresses of leads to improve email deliverability.</p>
+      </div>
+      <div className="text-center flex flex-col items-center justify-center">
+        <Image src="/171.png" width={71} height={66} alt=""/>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Service Providers</p>
+        <p className="text-[16px] text-[#595B97]">Service providers are using BrandNav  to locate accurate email addresses  build a list of contacts, and improve the efficiency of their sales process.</p>
+      </div>
+      <div className="text-center flex flex-col items-center justify-center">
+        <Image src="/18.png" width={71} height={66} alt=""/>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Recruiters</p>
+        <p className="text-[16px] text-[#595B97]">Recruiters are using BrandNav to locate and verify the email addresses of job candidates, build a talent pool, and streamline their hiring process.</p>
+      </div>
+      <div className="text-center flex flex-col items-center justify-center">
+        <Image src="/19.png" width={71} height={66} alt=""/>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Backlinks Outreach</p>
+        <p className="text-[16px] text-[#595B97]">SEO link builders are using BrandNav to locate and verify the email addresses of potential link partners, and build outreach lists for link-building purposes</p>
+      </div>
+      <div className="text-center flex flex-col items-center justify-center">
+        <Image src="/20.svg" width={71} height={66} alt=""/>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Investors</p>
+        <p className="text-[16px] text-[#595B97]">Investors are using BrandNav to quickly find and verify contact information for key executives and decision-makers and streamline their workflow.</p>
+      </div>
+      
+      </div>
+      </div>
+
+      </div>
+      <div className="innerContainer bg-[#E1F1FE] w-full flex  items-center justify-center flex-col py-[60px]">
+        <div className="text-center">
+        <p className="text-[#2F327D] font-bold text-[36px]">Don’t just take our word for it</p>
+        <div className="flex pt-[20px] gap-4 items-center">
+          <p className="text-[#595B97] text-[20px] font-medium">Excellent</p>
+          <Image src="/5 star review.png" className="w-[100px] h-[20px]" width={100} height={20} alt=""/>
+          <p className="text-[#595B97] text-[20px] font-medium">4.8/5 G2 Ratings</p>
+        </div>
+        </div>
+        <div className="grid grid-cols-2 gap-10 mt-[40px] px-[100px]">
+          <ReviewCard/>
+          <ReviewCard/>
+         </div>
+      </div>
+      <div className=" w-full flex  items-center justify-center flex-col py-[60px] ">
+      <p className="text-[#2F327D] font-bold text-[36px]">Got a Question?<br/>
+      Get Your Answers</p>
+      <div className=" bg-white w-3/4 m-[100px] rounded-lg border-none shadow-lg">
+    
+       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+        
+       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+
+        
+       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+
+
+        
+       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+
+        
+       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+
+        
+       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
+        </div>
+
+      </div>
+
+      <div className="mx-[200px] relative">
+       
+          {/* <Image src="/bg.png" width={1080} height={366} alt="" className="w-[1080px] h-[366px]"/> */}
+          <Image src="/footer banner section.png" width={1080} height={366} alt="" />
+        
+      </div>
       </div>
     </div>
   )

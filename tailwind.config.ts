@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      flex: {
+        '2': '2 2 0%',
+      },
     },
   },
   plugins: [],
