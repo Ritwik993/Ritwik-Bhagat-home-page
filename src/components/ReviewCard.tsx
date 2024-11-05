@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ReviewCard=()=>{
     return(
-        <div className="container flex flex-col p-[40px] bg-white w-[450px]">
+        <div className="container flex flex-col md:p-[40px] p-[20px] bg-white md:w-[450px] w-[350px]">
             <div className="review flex justify-between items-center">
                 <div className="left flex  items-center gap-4">
                     <Image src="/im1.png" width={50} height={50} className="w-[50px] h-[50px]" alt=""/>
