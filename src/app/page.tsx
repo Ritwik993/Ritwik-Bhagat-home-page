@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import Card1 from "@/components/Card1";
+import GiftCard from "@/components/GiftCard";
 import Reason from "@/components/Reason";
 import Reason2 from "@/components/Reason2";
 import Reason3 from "@/components/Reason3";
@@ -61,7 +62,26 @@ const Home=()=>{
           </div>
 
         </div>
-      <Image src="/banner dark.png" alt="" width={1280} height={912} className="w-full mt-[20px]"/>
+      {/* <Image src="/banner dark.png" alt="" width={1280} height={912} className="w-full mt-[20px]"/> */}
+
+      <div className="imageContainer relative w-full flex flex-col justify-center items-center">
+        <Image src="/bg1.png" alt="" width={1280} height={912} className="w-full h-[912px]"/>
+        <div className="absolute top-1/6 flex justify-around items-center pl-[200px] pr-[100px] w-full">
+          <div>
+            <GiftCard/>
+          </div>
+          <div className="text-center">
+            <p className="font-semibold text-[40px] text-white">Not convinced yet?<br/>
+               Take it for a <span className="text-[#49A7FF]">FREE</span> spin<br/>before committing</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
       <div className="text-center mt-[100px]">
         <h1 className="text-[#2F327D] font-bold text-[36px]">Why should you use BrandNav?</h1>
         <p>Optimize your workflow for faster results and higher revenue</p>
@@ -203,23 +223,14 @@ const Home=()=>{
       Get Your Answers</p>
       <div className=" bg-white w-3/4 m-[100px] rounded-lg border-none shadow-lg">
     
-       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
-        <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
-        <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
-        </div>
-        <hr className="border-0 h-[1px] bg-gray-300"/>
-
-        
-       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+       <div className="pl-[100px] pr-[20px] py-[20px] flex justify-between items-center border-none p-[40px]">
         <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
 
-
-        
-       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <div className="pl-[100px] pr-[20px] py-[20px] flex justify-between items-center border-none p-[40px]">
         <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
         </div>
@@ -227,9 +238,7 @@ const Home=()=>{
 
 
 
-
-        
-       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <div className="pl-[100px] pr-[20px] py-[20px] flex justify-between items-center border-none p-[40px]">
         <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
         </div>
@@ -237,8 +246,7 @@ const Home=()=>{
 
 
 
-        
-       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <div className="pl-[100px] pr-[20px] py-[20px] flex justify-between items-center border-none p-[40px]">
         <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
         </div>
@@ -246,20 +254,40 @@ const Home=()=>{
 
 
 
-        
-       <div className="pl-[100px] pr-[20px] py-[10px] flex justify-between items-center border-none">
+        <div className="pl-[100px] pr-[20px] py-[20px] flex justify-between items-center border-none p-[40px]">
         <p className="text-[#616161] text-[16px] font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] text-[24px] font-semibold">+</p>
         </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+
+
+    
 
       </div>
 
-      <div className="mx-[200px] relative">
-       
-          {/* <Image src="/bg.png" width={1080} height={366} alt="" className="w-[1080px] h-[366px]"/> */}
-          <Image src="/footer banner section.png" width={1080} height={366} alt="" />
-        
+      <div className="mx-[200px] relative flex items-center justify-center ">
+      <Image 
+        src="/bg2.png" 
+        width={1080} 
+        height={366} 
+        alt="Background Image" 
+        className="w-[1080px] h-[366px]" 
+      />
+    <div className="absolute flex flex-col items-center justify-center  top-16">
+    <p className="font-bold text-[40px]   text-white">Want to see BrandNav in action?</p>
+    <p className="text-[20px] font-semibold text-[#F2F2F2] mb-[20px] mt-[20px]">Try BrandNav for free today!</p>
+    <button className="bg-[#0084FF] text-white rounded-[5px] px-[20px] py-[10px] ">Grab free leads</button>
+    <div className="flex gap-2  text-white items-center mt-[20px]">
+        <Image src="/im.png" className="w-[16px] h-[12px]" width={16} height={16} alt=""/>
+        <p>No credit card required | </p>
+        <Image src="/5 star review.png" alt="" className="w-[65px] h-[13px]" width={65} height={13}/>
+        <p>4.8/5 G2 Rating</p>
       </div>
+    </div>
+   
+    </div>
       </div>
     </div>
   )
