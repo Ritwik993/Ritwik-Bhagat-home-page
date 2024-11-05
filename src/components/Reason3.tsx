@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Reason3=()=>{
     return(
-        <div className="flex justify-between items-center gap-6">
+        <div className="flex md:flex-row flex-col justify-between items-center gap-6">
             <Image src="/image3.svg" alt="" width={437} height={407}/>
             <div className="right">
                 <Image src="/filter (2) 1.svg" alt="" width={50} height={50}/>

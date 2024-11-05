@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Reason2=()=>{
     return(
-        <div className="flex justify-between items-center gap-6">
+        <div className="flex md:flex-row flex-col-reverse justify-between items-center gap-6">
             <div className="right">
                 <Image src="/sync 1.svg" alt="" width={50} height={50}/>
                 <h2 className="text-[#2F327D] font-semibold text-[26px] mb-[20px]">Fresh data updates everyday</h2>

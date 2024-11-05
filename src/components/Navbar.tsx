@@ -2,12 +2,13 @@ import Image from "next/image";
 
 const Navbar=()=>{
     return(
-        <div className="flex justify-between items-center px-[100px] ">
+        <div className="flex justify-between items-center lg:px-[100px] md:px-[50px] px-[40px]">
             <div className="text-[#0D2052] text-[14px] flex items-center justify-center text-center">
                 <Image src="/Vector 1648.png" width={33} height={24} alt=""/>
-                <h1 className="text-[24px] font-semibold text-center">BrandNav</h1>
+                <h1 className="md:text-[24px] text-[20px] font-semibold text-center">BrandNav</h1>
             </div>
-            <div className="flex py-1 px-1 gap-4">
+            <Image src="/nav.png" width={32} height={32} alt="" className="w-[32px] h-[32px] md:hidden" />
+            <div className="hidden lg:flex py-1 px-1 gap-4">
                 <select className="bg-[#F3F3F5] hover:text-[#0085FF] transition-colors">
                     <option>Products</option>
                 </select>
@@ -17,9 +18,9 @@ const Navbar=()=>{
                     <option>Resources</option>
                 </select>
             </div>
-            <div className="flex gap-3">
-                <button className="bg-white py-[11px] px-[24px] rounded-[8px]">Login</button>
-                <button className="bg-[#287DFF] text-white px-[24px] py-[11px] rounded-[8px]">Start for free</button>
+            <div className="md:flex  gap-3 hidden ">
+                <button className="bg-white lg:py-[11px] lg:px-[24px] md:py-[9px] md:px-[20px] rounded-[8px]">Login</button>
+                <button className="bg-[#287DFF] text-white lg:px-[24px] lg:py-[11px] md:px-[20px] md:py-[9px] rounded-[8px]">Start for free</button>
             </div>
         </div>
     )
