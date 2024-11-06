@@ -6,6 +6,7 @@ import Reason2 from "@/components/Reason2";
 import Reason3 from "@/components/Reason3";
 import ReviewCard from "@/components/ReviewCard";
 import Image from "next/image";
+// import {verifiedCard} from "../assessts/verifier card.svg"
 
 const Home=()=>{
   return(
@@ -25,10 +26,10 @@ const Home=()=>{
       </div>
         {/* <Image src="/tools.png" alt="" className="w-[1060px] h-[300px]" width={1060} height={300}/> */}
         <div className="flex flex-col md:flex-row items-center gap-3 md:items-end md:mt-0 mt-[40px]">
-          <Image src="/verifier card.svg" alt="" width={256} height={300}/>
-          <Image src="/screener card.svg" alt="" width={248} height={200}/>
-          <Image src="/blacklist shield card.svg" width={256} height={208} alt=""/>
-          <Image src="/enricher card.svg" alt="" width={256} height={300} />
+          <Image src="/verifier card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
+          <Image src="/screener card.svg" alt="" width={248} height={200} className="w-full md:w-auto"/>
+          <Image src="/blacklist shield card.svg" width={256} height={208} alt="" className="w-full md:w-auto"/>
+          <Image src="/enricher card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
         </div>
         <div className="text-center">
 
@@ -228,35 +229,35 @@ const Home=()=>{
       <p className="text-[16px] text-[#595B97] mt-[15px] mb-[20px]">BrandNav has become irreplaceable tool for businesses</p>
       
       <div className="grid md:grid-cols-3 gri-cols-1 gap-x-8 gap-y-[100px] md:px-[100px]">
-      <div className="text-center flex flex-col items-center justify-center">
+      <div className="text-center flex flex-col md:items-center justify-center">
         <Image src="/15.png" width={71} height={66} alt=""/>
-        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Sales & Marketing Teams</p>
-        <p className="text-[16px] text-[#595B97]">Sales and marketing teams are using BrandNav to efficiently locate and verify prospect contact information and identify key decision-makers.</p>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px] md:text-center text-left">Sales & Marketing Teams</p>
+        <p className="text-[16px] text-[#595B97] md:text-center text-left">Sales and marketing teams are using BrandNav to efficiently locate and verify prospect contact information and identify key decision-makers.</p>
       </div>
-      <div className="text-center flex flex-col items-center justify-center">
+      <div className="text-center flex flex-col md:items-center justify-center">
         <Image src="/161.png" width={71} height={66} alt=""/>
-        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Software & IT Companies</p>
-        <p className="text-[16px] text-[#595B97]">IT companies are using BrandNav to build lists for outreach, identify target organizations, and verify email addresses of leads to improve email deliverability.</p>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px] md:text-center text-left">Software & IT Companies</p>
+        <p className="text-[16px] text-[#595B97] md:text-center text-left">IT companies are using BrandNav to build lists for outreach, identify target organizations, and verify email addresses of leads to improve email deliverability.</p>
       </div>
-      <div className="text-center flex flex-col items-center justify-center">
+      <div className="text-center flex flex-col md:items-center justify-center">
         <Image src="/171.png" width={71} height={66} alt=""/>
-        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Service Providers</p>
-        <p className="text-[16px] text-[#595B97]">Service providers are using BrandNav  to locate accurate email addresses  build a list of contacts, and improve the efficiency of their sales process.</p>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px] md:text-center text-left">Service Providers</p>
+        <p className="text-[16px] text-[#595B97] md:text-center text-left">Service providers are using BrandNav  to locate accurate email addresses  build a list of contacts, and improve the efficiency of their sales process.</p>
       </div>
-      <div className="text-center flex flex-col items-center justify-center">
+      <div className="text-center flex flex-col md:items-center justify-center">
         <Image src="/18.png" width={71} height={66} alt=""/>
-        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Recruiters</p>
-        <p className="text-[16px] text-[#595B97]">Recruiters are using BrandNav to locate and verify the email addresses of job candidates, build a talent pool, and streamline their hiring process.</p>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px] md:text-center text-left">Recruiters</p>
+        <p className="text-[16px] text-[#595B97] md:text-center text-left">Recruiters are using BrandNav to locate and verify the email addresses of job candidates, build a talent pool, and streamline their hiring process.</p>
       </div>
-      <div className="text-center flex flex-col items-center justify-center">
+      <div className="text-center flex flex-col md:items-center justify-center">
         <Image src="/19.png" width={71} height={66} alt=""/>
-        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Backlinks Outreach</p>
-        <p className="text-[16px] text-[#595B97]">SEO link builders are using BrandNav to locate and verify the email addresses of potential link partners, and build outreach lists for link-building purposes</p>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px] md:text-center text-left">Backlinks Outreach</p>
+        <p className="text-[16px] text-[#595B97] md:text-center text-left">SEO link builders are using BrandNav to locate and verify the email addresses of potential link partners, and build outreach lists for link-building purposes</p>
       </div>
-      <div className="text-center flex flex-col items-center justify-center">
+      <div className="text-center flex flex-col md:items-center justify-center">
         <Image src="/20.svg" width={71} height={66} alt=""/>
-        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px]">Investors</p>
-        <p className="text-[16px] text-[#595B97]">Investors are using BrandNav to quickly find and verify contact information for key executives and decision-makers and streamline their workflow.</p>
+        <p className="text-[#2F327D] font-semibold text-[20px] mt-[20px] md:text-center text-left">Investors</p>
+        <p className="text-[16px] text-[#595B97] md:text-center text-left">Investors are using BrandNav to quickly find and verify contact information for key executives and decision-makers and streamline their workflow.</p>
       </div>
       
       </div>
@@ -282,7 +283,7 @@ const Home=()=>{
       Get Your Answers</p>
       <div className=" bg-white w-3/4 m-[100px] rounded-lg border-none shadow-lg">
     
-       <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none md:p-[40px] ">
+       <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
@@ -290,33 +291,33 @@ const Home=()=>{
 
 
     
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none md:p-[40px] ">
+        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none md:p-[40px] ">
+        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none md:p-[40px] ">
-        <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
-        <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
-        </div>
-        <hr className="border-0 h-[1px] bg-gray-300"/>
-
-
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none md:p-[40px] ">
+        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
 
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none md:p-[40px] ">
+        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
+        <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
