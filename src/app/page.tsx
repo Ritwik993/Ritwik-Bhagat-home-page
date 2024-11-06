@@ -26,10 +26,10 @@ const Home=()=>{
       </div>
         {/* <Image src="/tools.png" alt="" className="w-[1060px] h-[300px]" width={1060} height={300}/> */}
         <div className="flex flex-col md:flex-row items-center gap-3 md:items-end md:mt-0 mt-[40px]">
-          <Image src="/verifier card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
-          <Image src="/screener card.svg" alt="" width={248} height={200} className="w-full md:w-auto"/>
-          <Image src="/blacklist shield card.svg" width={256} height={208} alt="" className="w-full md:w-auto"/>
-          <Image src="/enricher card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
+          <Image src="/verifier_card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
+          <Image src="/screener_card.svg" alt="" width={248} height={200} className="w-full md:w-auto"/>
+          <Image src="/blacklist_shield card.svg" width={256} height={208} alt="" className="w-full md:w-auto"/>
+          <Image src="/enricher_card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
         </div>
         <div className="text-center">
 
@@ -62,8 +62,8 @@ const Home=()=>{
             </div>
            </div>
            <div className="flex gap-1">
-            <Image src="/Group 1000000815.png" width={131} height={198} alt=""/>
-            <Image src="/Group 1000000816.png" width={127} height={120} alt=""/>
+            <Image src="/Group_1000000815.png" width={131} height={198} alt=""/>
+            <Image src="/Group_1000000816.png" width={127} height={120} alt=""/>
            </div>
           </div>
 
@@ -92,7 +92,7 @@ const Home=()=>{
         <h1 className="text-[#2F327D] font-bold md:text-[36px] text-[30px]">Why should you use BrandNav?</h1>
         <p>Optimize your workflow for faster results and higher revenue</p>
       </div>
-        <div className="flex flex-col justify-center items-center"> 
+        <div className="flex flex-col md:justify-center items-center"> 
         <Reason/>
         <Reason2/>
         <Reason3/>
