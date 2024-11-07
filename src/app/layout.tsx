@@ -28,7 +28,7 @@ export default function RootLayout({
         <div className="image absolute top-0 left-1/3">
           <Image src="/Vector 2.svg" width={1258} height={763} alt=""/>
         </div> */}
-      <body className={`${poppins.className} bg-[#F3F3F5]`}>
+      <body className={`${poppins.className} bg-[#F3F3F5] `}>
     
           <Navbar />
           <main className=''>

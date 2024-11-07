@@ -83,14 +83,14 @@ const Home=()=>{
         </div>
       {/* <Image src="/banner dark.png" alt="" width={1280} height={912} className="w-full mt-[20px]"/> */}
 
-      <div className="imageContainer relative w-full flex flex-col justify-center items-center mt-[100px] ">
+      <div className="imageContainer relative w-[100vw] flex flex-col justify-center items-center mt-[100px] ">
         <Image src="/bg1.png" alt="" width={1280} height={912} className="w-full md:h-[912px] h-[1102px]"/>
         <div className="absolute md:top-1/6 top-[100px] flex flex-col-reverse  md:flex-row justify-around items-center md:pl-[200px] md:pr-[100px] pl-[60px] pr-[50px] w-full">
           <div>
             <GiftCard/>
           </div>
           <div className="text-center">
-            <p className="font-semibold md:text-[40px] text-[30px] text-white md:mb-[0px] mb-[20px]">Not convinced yet?<br className="hidden md:block"/>
+            <p className="font-semibold md:text-[40px] text-[30px] text-white md:mb-[0px] mb-[20px]">Not convinced yet ?<br className="hidden md:block"/>
                Take it for a <span className="text-[#49A7FF]">FREE</span> spin<br/>before committing</p>
           </div>
         </div>
@@ -101,15 +101,22 @@ const Home=()=>{
 
 
 
-      <div className="md:text-center mt-[100px] bg-[#F2F2FA]">
+      <div className="w-[100vw] md:px-[0px] px-[10px]">
+      <div className="md:text-center text-left mt-[100px] bg-[#F2F2FA]">
         <h1 className="text-[#2F327D] font-bold md:text-[36px] text-[30px]">Why should you use BrandNav?</h1>
         <p>Optimize your workflow for faster results and higher revenue</p>
       </div>
-        <div className="flex flex-col md:justify-center items-center"> 
+        <div className="md:flex md:flex-col md:justify-center md:items-center"> 
         <Reason/>
         <Reason2/>
         <Reason3/>
         </div>
+      </div>
+
+
+
+
+
         <div className="md:text-center text-left mt-[150px]">
         <p className="font-bold md:text-[36px] text-[20px] text-[#2F327D] md:text-center text-left">Pinpoint your ideal customer with<br/> relevant data attributes</p>
         <p className="text-[#007DF2] font-semibold md:text-[24px] text-[20px] mt-[40px]">Screener attributes</p>
@@ -133,35 +140,35 @@ const Home=()=>{
           </div>
         </div>
 
-        <div className="md:hidden  grid grid-cols-2  w-full ">
-          <div className="flex flex-col items-center justify-center">
+        <div className="md:hidden  grid grid-cols-2  w-full gap-y-16">
+          <div className=" text-center flex flex-col items-center ">
             <Image src="/Group 1000001990.svg" width={70} height={70} alt="" />
             <p className="text-[20px] font-semibold text-[#2F327D]">Financials</p>
           </div>
-          <div className="text-center flex flex-col items-center justify-center">
+          <div className="text-center flex flex-col items-center ">
             <Image src="/Group 1000001992.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Company Name <br/>& Website</p>
           </div>
-          <div className="text-center flex flex-col items-center justify-center">
+          <div className="text-center flex flex-col items-center ">
             <Image src="/Group 1000001992 (1).svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Company <br/>location </p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center ">
             <Image src="/3.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Country code </p>
           </div>
         </div>
 
-        <div className="hidden md:flex justify-between w-full items-center px-[350px] mt-[20px]">
-          <div className="flex flex-col items-center justify-center">
+        <div className="hidden md:flex justify-between w-full items-center px-[350px] mt-[64px]">
+          <div className="flex flex-col items-center ">
             <Image src="/4.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Employee count</p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center ">
             <Image src="/5.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Industry </p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center pt-[64px]">
             <Image src="/6.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">and 20+ more </p>
           </div>
@@ -223,32 +230,21 @@ const Home=()=>{
         </div>
 
 
-      <div className=" md:text-center text-left">
+      <div className=" md:text-center text-left md:px-0 px-[10px]">
       <p className="text-[#2F327D] font-bold text-[36px] mt-[250px]">Fix data accuracy problems<br/> with BrandNav</p>
-<<<<<<< HEAD
       <div className="flex flex-col md:flex-row md:gap-5 mt-8">
       <div className="md:py-[0px] py-[20px]">
-        <Image src="/11.png" width={439} height={426} alt="" className=" bg-cover"/>
-        <p className="font-semibold text-[#F04148] text-[20px] md:mt-[0px] mt-[-80px]">Before</p>
+        <Image src="/r1.svg" width={439} height={426} alt="" className=" w-[439px] h-[426px] md:bg-auto bg-cover"/>
+        <p className="font-semibold text-[#F04148] text-[20px] md:mt-[0px] mt-[-80px] md:pl-0 pl-[40px]">Before</p>
       </div>
       <div>
-        <Image src="/12.png" width={439} height={426} alt="" className="bg-cover"/>
-        <p className="font-semibold text-[#F04148] text-[20px] md:mt-[0px] mt-[-20px]">After</p>
-=======
-      <div className="flex flex-col md:flex-row gap-5 mt-8">
-      <div>
-        <Image src="/11.png" width={439} height={426} alt="" className="w-[439px] h-[330px]"/>
-        <p className="font-semibold text-[#F04148] text-[20px]">Before</p>
-      </div>
-      <div>
-        <Image src="/12.png" width={439} height={426} alt="" className="w-[439px] h-[330px]"/>
-        <p className="font-semibold text-[#F04148] text-[20px]">After</p>
->>>>>>> parent of 61a2daf (files added)
+        <Image src="/r3.svg" width={439} height={426} alt="" className="w-[439px] h-[426px] md:bg-auto bg-cover"/>
+        <p className="font-semibold text-[#F04148] text-[20px] md:mt-[0px] mt-[-80px] md:pl-0 pl-[40px]">After</p>
       </div>
       </div>
       </div>
 
-      <div className="flex flex-col md:text-center text-left items-center justify-center mt-[200px] mb-[100px]">
+      <div className="flex flex-col md:text-center text-left items-center justify-center md:mt-[200px] mt-[100px] mb-[100px] md:px-0 px-[10px]">
       <p className="text-[#2F327D] font-bold text-[36px]">Who is using BrandNav?</p>
       <p className="text-[16px] text-[#595B97] mt-[15px] mb-[20px]">BrandNav has become irreplaceable tool for businesses</p>
       
@@ -305,12 +301,12 @@ const Home=()=>{
           <ReviewCard/>
          </div>
       </div>
-      <div className=" w-full flex  items-center justify-center flex-col py-[60px] text-center">
+      <div className=" w-[100vw] flex  items-center justify-center flex-col py-[60px] text-center">
       <p className="text-[#2F327D] font-bold text-[36px]">Got a Question?<br/>
       Get Your Answers</p>
-      <div className=" bg-white w-1/2 mt-[50px] mb-[50px] rounded-lg border-none shadow-lg">
+      <div className=" bg-white md:w-1/2 w-3/4 mt-[50px] mb-[50px] rounded-lg border-none shadow-lg">
     
-       <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
+       <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
@@ -318,33 +314,33 @@ const Home=()=>{
 
 
     
-        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
+        <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
-        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
+        <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
-        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
-        <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
-        <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
-        </div>
-        <hr className="border-0 h-[1px] bg-gray-300"/>
-
-
-        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
+        <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
 
-        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
+        <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none ">
+        <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+        <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
@@ -365,7 +361,7 @@ const Home=()=>{
         className="w-[1080px] h-[366px]" 
       />
     <div className="absolute flex flex-col items-center justify-center  top-16">
-    <p className="font-bold md:text-[40px] text-[30px]  text-white text-center">Want to see BrandNav in action?</p>
+    <p className="font-bold md:text-[40px] text-[px]  text-white text-center px-4">Want to see BrandNav in action?</p>
     <p className="md:text-[20px] text-[18px] font-semibold text-[#F2F2F2] mb-[20px] mt-[20px]">Try BrandNav for free today!</p>
     <button className="bg-[#0084FF] text-white rounded-[5px] px-[20px] py-[10px] ">Grab free leads</button>
     <div className="flex gap-2   text-white items-center mt-[20px]">
