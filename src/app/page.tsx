@@ -159,31 +159,31 @@ const Home=()=>{
           </div>
         </div>
 
-        <div className="hidden md:flex justify-between w-full items-center px-[350px] mt-[64px]">
+        <div className="hidden md:flex justify-between w-full items-center px-[350px] ">
           <div className="flex flex-col items-center ">
             <Image src="/4.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Employee count</p>
           </div>
-          <div className="flex flex-col items-center ">
+          <div className="flex flex-col items-center  ">
             <Image src="/5.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Industry </p>
           </div>
-          <div className="flex flex-col items-center justify-center pt-[64px]">
+          <div className="flex flex-col items-center justify-center ">
             <Image src="/6.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">and 20+ more </p>
           </div>
           </div>
 
-          <div className="md:hidden grid grid-cols-2 w-full   mt-[20px]">
-          <div className="flex flex-col items-center justify-center">
+          <div className="md:hidden grid grid-cols-2 w-full ">
+          <div className="flex flex-col items-center justify-center mt-[64px]">
             <Image src="/4.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Employee count</p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center mt-[64px]">
             <Image src="/5.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">Industry </p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center mt-[64px] ">
             <Image src="/6.svg" width={70} height={70} alt=""/>
             <p className="text-[20px] font-semibold text-[#2F327D]">and 20+ more </p>
           </div>
