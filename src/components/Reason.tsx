@@ -6,8 +6,8 @@ const Reason=()=>{
             <Image src="/image.svg" alt="" width={437} height={407}/>
             <div className="right md:ml-[0px] ml-[60px]">
                 <Image src="/Frame 1000001728.svg" alt="" width={50} height={50} />
-                <h2 className="text-[#2F327D] font-semibold text-[26px] mb-[20px]  text-left md:text-center">Enrich any CSV</h2>
-                <p className="w-[490px] text-[16px] text-[#595B97] ">BrandNav transforms your CSV files by adding valuable contact, firmographics, and technographics data. With just a few clicks, you can enhance your data with enriched information and unlock new insights and opportunities.</p>
+                <h2 className="text-[#2F327D] font-semibold text-[26px] mb-[20px]  text-left ">Enrich any CSV</h2>
+                <p className="w-[490px] text-[16px] text-[#595B97] text-left">BrandNav transforms your CSV files by adding valuable contact, firmographics, and technographics data. With just a few clicks, you can enhance your data with enriched information and unlock new insights and opportunities.</p>
             </div>
         </div>
     )

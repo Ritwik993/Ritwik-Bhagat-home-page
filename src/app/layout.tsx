@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-[#F3F3F5] flex flex-col items-center justify-center overflow-x-hidden`}>
-        <div className="container  py-4">
+        <div className="container">
           <Navbar />
           <main>{children}</main>
           <Footer />

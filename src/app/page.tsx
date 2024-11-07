@@ -10,14 +10,14 @@ import Image from "next/image";
 
 const Home=()=>{
   return(
-    <div className="container md:px-[50px] px-[40px]">
-      <div className="heading lg:flex justify-center flex-col items-center md:text-center text-left">
-        <h1 className=" text-[#0D2052] md:text-[56px] text-[42px] font-medium mb-[20px]">Weapons to grow <br/> your Business</h1>
+    <div className="w-full">
+      <div className="heading w-full lg:flex justify-center flex-col items-center md:text-center text-left bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA]">
+        <h1 className=" text-[#0D2052] md:text-[56px] text-[42px] font-medium mb-[20px]">Weapons to grow <br className="mb-[10px]"/> your Business</h1>
         <div>
         <p className="text-[16px] text-[#666666] font-normal">Turbocharge your business growth.</p>
         <p className="text-[16px] text-[#666666] font-normal">Our products help ignite sales and entrepreneurship.</p>
         </div>
-      <button className="text-white bg-[#0084FF] rounded-[12px] py-[16px] px-[52px] mt-[40px] w-full sm:w-auto ">Start for free</button>
+      <button className="text-white bg-gradient-to-b from-[#0084FF] to-[#0084FF] rounded-[12px] py-[16px] px-[52px] mt-[40px] w-full sm:w-auto ">Start for free</button>
       <div className="hidden md:flex gap-2 mt-2 text-[#8A8A8A] items-center">
         <Image src="/uil_credit-card.png" className="w-[16px] h-[12px]" width={16} height={16} alt=""/>
         <p>No credit card required | </p>
@@ -31,18 +31,20 @@ const Home=()=>{
           <Image src="/blacklist_shield card.svg" width={256} height={208} alt="" className="w-full md:w-auto"/>
           <Image src="/enricher_card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
         </div>
-        <div className="text-center">
+        <div className="text-center pb-[100px]">
 
         <p className="text-[#666666] mt-14">Modern companies are using <span className="font-semibold">BrandNav</span></p>
         <Image src="/testimonial section.svg" alt="" width={700} height={24} className="mt-[28px] hidden md:block"/>
         <Image src="/t1.png" alt="" width={320} height={137} className="mt-[28px] block md:hidden mb-[20px]"/>
         </div>
+      </div>
 
-        <div className="hidden middle md:flex flex-col justify-center align-center  pt-[200px] pb-[40px]">
+     
+     <div className="flex flex-col justify-center items-center text-center  ">
+     <div className="hidden middle md:flex flex-col justify-center align-center  pt-[100px] pb-[40px]">
          <p className="text-[#2F327D] font-bold text-[32px]">Choose Your Weapon</p>
          <p className="text-[#595B97]">BrandNav is a multi-dimensional platform designed for revenue growth</p>
         </div>
-      </div>
       <div className="flex justify-center items-center flex-col gap-2">
 
         <div className="middleContainer">
@@ -70,7 +72,7 @@ const Home=()=>{
         </div>
       {/* <Image src="/banner dark.png" alt="" width={1280} height={912} className="w-full mt-[20px]"/> */}
 
-      <div className="imageContainer relative w-full flex flex-col justify-center items-center ">
+      <div className="imageContainer relative w-full flex flex-col justify-center items-center mt-[100px] ">
         <Image src="/bg1.png" alt="" width={1280} height={912} className="w-full md:h-[912px] h-[1102px]"/>
         <div className="absolute md:top-1/6 top-[100px] flex flex-col-reverse  md:flex-row justify-around items-center md:pl-[200px] md:pr-[100px] pl-[60px] pr-[50px] w-full">
           <div>
@@ -88,7 +90,7 @@ const Home=()=>{
 
 
 
-      <div className="md:text-center mt-[100px]">
+      <div className="md:text-center mt-[100px] bg-[#F2F2FA]">
         <h1 className="text-[#2F327D] font-bold md:text-[36px] text-[30px]">Why should you use BrandNav?</h1>
         <p>Optimize your workflow for faster results and higher revenue</p>
       </div>
@@ -264,10 +266,13 @@ const Home=()=>{
       </div>
 
       </div>
-      <div className="innerContainer bg-[#E1F1FE] w-full flex  items-center justify-center flex-col py-[60px]">
-        <div className="md:text-center text-left md:p-[0] px-[20px]">
-        <p className="text-[#2F327D] font-bold text-[36px]">Don’t just take our word for it</p>
-        <div className="flex pt-[20px] gap-4 items-center">
+     </div>
+     
+
+      <div className="innerContainer bg-[#E1F1FE] w-full flex  items-center justify-center text-center flex-col py-[60px] ">
+        <div className="md:text-center text-left md:p-[0] px-[20px] w-full">
+        <p className="text-[#2F327D] font-bold text-[36px] ">Don’t just take our word for it</p>
+        <div className="flex pt-[20px] gap-4 items-center w-full text-center justify-center">
           <p className="text-[#595B97] md:text-[20px] text-[15px] font-medium">Excellent</p>
           <Image src="/5 star review.png" className="w-[100px] h-[20px]" width={100} height={20} alt=""/>
           <p className="text-[#595B97] md:text-[20px] text-[15px] font-medium">4.8/5 G2 Ratings</p>
@@ -278,12 +283,12 @@ const Home=()=>{
           <ReviewCard/>
          </div>
       </div>
-      <div className=" w-full flex  items-center justify-center flex-col py-[60px] ">
+      <div className=" w-full flex  items-center justify-center flex-col py-[60px] text-center">
       <p className="text-[#2F327D] font-bold text-[36px]">Got a Question?<br/>
       Get Your Answers</p>
-      <div className=" bg-white w-3/4 m-[100px] rounded-lg border-none shadow-lg">
+      <div className=" bg-white w-1/2 mt-[50px] mb-[50px] rounded-lg border-none shadow-lg">
     
-       <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
+       <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
@@ -291,33 +296,33 @@ const Home=()=>{
 
 
     
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
+        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
+        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
-        <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
-        <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
-        </div>
-        <hr className="border-0 h-[1px] bg-gray-300"/>
-
-
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
+        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
         <hr className="border-0 h-[1px] bg-gray-300"/>
 
 
-        <div className="md:pl-[100px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
+        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
+        <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
+        <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
+        </div>
+        <hr className="border-0 h-[1px] bg-gray-300"/>
+
+
+        <div className="md:pl-[60px] pl-[30px] md:pr-[20px] pr-[10px] py-[20px] flex justify-between items-center  border-none ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>
         <p className="w-[24px] h-[24px]  text-[#616161] md:text-[24px] text-[15px] font-semibold">+</p>
         </div>
