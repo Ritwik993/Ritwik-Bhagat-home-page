@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar=()=>{
     return(
-        <div className="flex justify-between items-center lg:px-[100px] md:px-[50px] px-[40px] bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA]  w-full fixed top-0 left-0 h-[100px] z-30">
+        <div className="flex justify-between items-center lg:px-[100px] md:px-[50px] px-[40px] bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA]  w-[100vw] fixed top-0 left-0 h-[100px] z-30">
        
             <div className="text-[#0D2052] text-[14px] flex items-center justify-center text-center  z-50">
                 <Image src="/1001.svg" width={33} height={24} alt=""/>

@@ -12,19 +12,23 @@ const Home=()=>{
   return(
     <div className="mt-[100px] ">
         
-      <div className="heading w-full md:flex justify-center flex-col items-center md:text-center text-left bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA] relative">
+      <div className="heading w-full flex md:justify-center flex-col items-center md:text-center  bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA] relative md:px-[0px] px-[10px]">
       <div className="image absolute top-[-100px] left-0 z-40 ">
           <Image src="/Vector 2420.svg" width={1258} height={763} alt=""/>
         </div>
         <div className="image absolute top-[-100px] left-1/3 z-40">
           <Image src="/Vector 2.svg" width={1258} height={763} alt=""/>
         </div>
-        <h1 className=" text-[#0D2052] md:text-[56px] text-[32px] font-medium mb-[20px] md:ml-0 ml-[5px]">Weapons to grow <br className="mb-[10px]"/> your Business</h1>
-        <div>
-        <p className="text-[16px] text-[#666666] font-normal md:ml-0 ml-[110px]">Turbocharge your business growth.</p>
-        <p className="text-[16px] text-[#666666] font-normal md:ml-0 ml-[110px]">Our products help ignite sales and entrepreneurship.</p>
+        <div className="ml-[20px]">
+        <h1 className=" text-[#0D2052] md:text-[56px] text-[32px] font-medium mb-[20px]  ">Weapons to grow <br/> your Business</h1>
+        <p className="text-[16px] text-[#666666] font-normal ">Turbocharge your business growth.</p>
+        <p className="text-[16px] text-[#666666] font-normal ">Our products help ignite sales and entrepreneurship.</p>
         </div>
-      <button className="text-white bg-gradient-to-b from-[#0084FF] to-[#0084FF] rounded-[12px] py-[16px] md:px-[52px] px-[40px] mt-[40px] w-full sm:w-auto ">Start for free</button>
+      
+
+      <button className="text-white bg-gradient-to-b from-[#0084FF] to-[#0084FF] rounded-[12px] py-[16px] md:px-[52px] px-[30px] mt-[40px]  w-11/12  sm:w-auto ">Start for free</button>
+
+        
       <div className="hidden md:flex gap-2 mt-2 text-[#8A8A8A] items-center">
         <Image src="/uil_credit-card.png" className="w-[16px] h-[12px]" width={16} height={16} alt=""/>
         <p>No credit card required | </p>
@@ -33,7 +37,7 @@ const Home=()=>{
       </div>
         {/* <Image src="/tools.png" alt="" className="w-[1060px] h-[300px]" width={1060} height={300}/> */}
         <div className="flex flex-col md:flex-row items-center gap-3 md:items-end md:mt-0 mt-[40px]">
-          <Image src="/verifier_card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
+          <Image src="/verifier_card.svg" alt="" width={256} height={300} className="w-full md:w-auto  "/>
           <Image src="/screener_card.svg" alt="" width={248} height={200} className="w-full md:w-auto"/>
           <Image src="/blacklist_shield card.svg" width={256} height={208} alt="" className="w-full md:w-auto"/>
           <Image src="/enricher_card.svg" alt="" width={256} height={300} className="w-full md:w-auto"/>
