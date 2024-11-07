@@ -11,7 +11,8 @@ import Image from "next/image";
 const Home=()=>{
   return(
     <div className="w-full">
-      <div className="heading w-full lg:flex justify-center flex-col items-center md:text-center text-left bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA]">
+      <div className="heading w-full lg:flex justify-center flex-col items-center md:text-center text-left bg-gradient-to-r from-[#E6ECFA] to-[#F2F2FA] relative">
+        
         <h1 className=" text-[#0D2052] md:text-[56px] text-[42px] font-medium mb-[20px]">Weapons to grow <br className="mb-[10px]"/> your Business</h1>
         <div>
         <p className="text-[16px] text-[#666666] font-normal">Turbocharge your business growth.</p>

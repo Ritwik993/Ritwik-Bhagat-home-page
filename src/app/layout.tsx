@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -21,10 +22,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-[#F3F3F5] flex flex-col items-center justify-center overflow-x-hidden`}>
+      <div className="image absolute top-0">
+          <Image src="/Vector 2420.svg" width={1258} height={763} alt=""/>
+        </div>
+        <div className="image absolute top-0 left-1/3">
+          <Image src="/Vector 2.svg" width={1258} height={763} alt=""/>
+        </div>
+      <body className={`${poppins.className} bg-[#F3F3F5] flex flex-col items-center justify-center`}>
+      
         <div className="container">
+          <div>
           <Navbar />
           <main>{children}</main>
+          </div>
           <Footer />
         </div>
       </body>
